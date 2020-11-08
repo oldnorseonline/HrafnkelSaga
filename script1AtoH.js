@@ -856,6 +856,11 @@ var dictionary = [["A", " "],
 ["dys", " grave, cairn (f)"]
 ];
 
+var e;
+window.onload = function () {
+    e = document.getElementById("container");
+};
+
 var glossary = []
 
 for (i=0; i<dictionary.length; i++){
@@ -867,5 +872,5 @@ for (i=0; i<dictionary.length; i++){
 };
 
 glossary.forEach(function(entry) {
-			document.getElementById("container").innerHTML += entry;
+			e.innerHTML += entry;
 		});
