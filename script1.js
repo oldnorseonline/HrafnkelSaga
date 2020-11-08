@@ -1,7 +1,3 @@
-
-<script>
-
-
 var dictionary = [["A", " "],
 ["a", " not"],
 ["á", " 1. preposition; <á> on, upon; at, in; to, towards; by means of; during; in the manner of 2. noun, feminine; nominative singular of <á> river 3. verb; 3rd singular present of <eiga> own, have, possess; have in marriage; have the power to; have claim to; have duty to"],
@@ -873,7 +869,3 @@ for (i=0; i<dictionary.length; i++){
 glossary.forEach(function(entry) {
 			document.getElementById("container1").innerHTML += entry;
 		});
-
-
-</script>
-
