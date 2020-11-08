@@ -871,7 +871,7 @@ for (i=0; i<dictionary.length; i++){
 window.onload = function () {
     alert("hello world!");
     glossary.forEach(function(entry) {
-			e.innerHTML += entry;
+	document.getElementById("container").innerHTML += entry;
 		});
 };
 
