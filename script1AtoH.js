@@ -871,6 +871,5 @@ for (i=0; i<dictionary.length; i++){
 alert("hello world!");
     glossary.forEach(function(entry) {
 	document.writeln(entry);
-		});
-};
+	});
 
