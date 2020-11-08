@@ -867,5 +867,5 @@ for (i=0; i<dictionary.length; i++){
 };
 
 glossary.forEach(function(entry) {
-			document.getElementById("container1").innerHTML += entry;
+			document.getElementById("container").innerHTML += entry;
 		});
