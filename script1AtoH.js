@@ -868,10 +868,9 @@ for (i=0; i<dictionary.length; i++){
 	glossary.push(z);
 };
 
-window.onload = function () {
-    alert("hello world!");
+alert("hello world!");
     glossary.forEach(function(entry) {
-	document.getElementById("container").innerHTML += entry;
+	document.writeln(entry);
 		});
 };
 
